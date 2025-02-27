@@ -2,5 +2,6 @@
 @import 'tailwindcss';
 
 body {
+  @apply bg-zinc-850;
   font-family: 'Istok Web', sans-serif;
 }
