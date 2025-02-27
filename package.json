@@ -1,5 +1,5 @@
 {
-  "name": "example-with-drizzle",
+  "name": "Vyre",
   "type": "module",
   "scripts": {
     "dev": "vinxi dev",
