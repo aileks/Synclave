@@ -6,8 +6,8 @@ module.exports = {
   },
   plugins: [
     // default prefix is "ui"
-    require("@kobalte/tailwindcss"),
+    require('@kobalte/tailwindcss'),
     // or with a custom prefix:
-    require("@kobalte/tailwindcss")({ prefix: "kb" }),
+    require('@kobalte/tailwindcss')({ prefix: 'kb' }),
   ],
 };

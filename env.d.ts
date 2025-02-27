@@ -6,7 +6,7 @@ interface ImportMetaEnv {
   SITE_NAME: string;
   SESSION_SECRET: string;
 }
-  
+
 interface ImportMeta {
-  readonly env: ImportMetaEnv
+  readonly env: ImportMetaEnv;
 }

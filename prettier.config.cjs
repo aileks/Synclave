@@ -1,8 +1,8 @@
 /** @type {import('prettier').Config & import('@trivago/prettier-plugin-sort-imports').PluginConfig & import('prettier-plugin-tailwindcss').options} */
 module.exports = {
   plugins: [
-    "@trivago/prettier-plugin-sort-imports",
-    "prettier-plugin-tailwindcss",
+    '@trivago/prettier-plugin-sort-imports',
+    'prettier-plugin-tailwindcss',
   ],
 
   // Prettier
@@ -13,22 +13,22 @@ module.exports = {
   singleQuote: true,
   jsxSingleQuote: true,
   experimentalTernaries: true,
-  arrowParens: avoid,
+  arrowParens: 'avoid',
 
   // Import sorting
   importOrder: [
-    "^solid/(.*)$",
-    "^@solid/(.*)$",
-    "^@solid-start/(.*)$",
-    "^~/(.*)$",
-    "^~/(.css)$",
-    "^[./]",
+    '^solid/(.*)$',
+    '^@solid/(.*)$',
+    '^@solid-start/(.*)$',
+    '^~/(.*)$',
+    '^~/(.css)$',
+    '^[./]',
   ],
   importOrderSeparation: true,
   importOrderSortSpecifiers: true,
 
   // Tailwind
-  tailwindAttributes: ["className", "class"],
-  tailwindFunctions: ["clsx", "cn", "twMerge"],
-  tailwindConfig: "./tailwind.config.ts",
+  tailwindAttributes: ['className', 'class'],
+  tailwindFunctions: ['clsx', 'cn', 'twMerge'],
+  tailwindConfig: './tailwind.config.ts',
 };
