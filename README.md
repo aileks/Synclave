@@ -4,16 +4,16 @@
 
 ### Schema
 
-[!Schema](./assets/schema.png)
+![Schema](./assets/schema.png)
 
 ### Data Flow
 
-[!Data](./assets/data.png)
+![Data](./assets/data.png)
 
 ### Auth Flow
 
-[!Auth](./assets/auth.png)
+![Auth](./assets/auth.png)
 
 ### Message Flow
 
-[!Messages](./assets/message-flow.png)
+![Messages](./assets/message-flow.png)
